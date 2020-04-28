@@ -264,7 +264,12 @@
           <h1>Contact</h1>
           <h6>Let's work together</h6>
         </div>
-        <form action="" data-aos="fade-up" data-aos-delay="300">
+        <form
+          action="POST"
+          data-netlify="true"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <label for="name">Name:</label>
           <input
             type="text"
@@ -295,6 +300,9 @@
             ></textarea>
             <input type="submit" value="Submit" />
           </select>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
         </form>
       </div>
     </section>
